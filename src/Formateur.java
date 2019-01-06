@@ -74,7 +74,7 @@ public class Formateur {
 			
 		
 		frame.setResizable(false);
-		frame.setBounds(0, 0,1450, 823);
+		frame.setBounds(0,0,1440, 819);
 		frame.setLocationRelativeTo(null);
 		
 		JPanel panel = new JPanel();
@@ -90,7 +90,7 @@ public class Formateur {
 		panel_1.setLayout(null);
 		
 		JLabel label = new JLabel("");
-		label.setIcon(new ImageIcon("/Users/adjaratoukhadyndiaye/Desktop/Java project/icons8-male-user-filled-50.png"));
+		label.setIcon(new ImageIcon("images/icons8-male-user-filled-50.png"));
 		label.setBounds(6, 6, 50, 46);
 		panel_1.add(label);
 		

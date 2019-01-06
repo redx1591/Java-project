@@ -60,7 +60,8 @@ public class Authentification {
 	private void initialize() {
 		frame = new JFrame();
 		frame.getContentPane().setLayout(null);
-		frame.setBounds(0,0,1450, 823);
+		frame.setResizable(false);
+		frame.setBounds(0,0,1440, 819);
 		frame.setLocationRelativeTo(null);
 		try {
 			UIManager.setLookAndFeel(new NimbusLookAndFeel());
@@ -110,7 +111,7 @@ public class Authentification {
 		login.setColumns(10);
 		
 		icone = new JLabel("");
-		icone.setIcon(new ImageIcon("C:\\Users\\ba196\\eclipse-workspace\\JavaProject\\images\\team_icon_3.png"));
+		icone.setIcon(new ImageIcon("images/team_icon_3.png"));
 		icone.setBounds(580, 109, 250, 241);
 		panel.add(icone);
 		
@@ -125,7 +126,7 @@ public class Authentification {
 		panel.add(pwd);
 		
 		JLabel Image = new JLabel("");
-		Image.setIcon(new ImageIcon("C:\\Users\\ba196\\eclipse-workspace\\JavaProject\\images\\background.png"));
+		Image.setIcon(new ImageIcon("images/background.png"));
 		Image.setBounds(0, 0, 1434, 790);
 		panel.add(Image);
 		
